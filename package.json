@@ -1,0 +1,30 @@
+{
+  "name": "gh-digest",
+  "version": "1.0.0",
+  "description": "Weekly digest of trending GitHub repos, formatted Markdown, optional Discord webhook delivery.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "gh-digest": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "github",
+    "trending",
+    "digest",
+    "discord",
+    "webhook",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.js",
+    "src"
+  ]
+}
